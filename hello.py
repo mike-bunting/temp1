@@ -1,6 +1,3 @@
-print "hello";
+import helper as h
 
-def greeting(msg):
-	print msg;
-
-greeting("world!");
+h.greeting("hello");
